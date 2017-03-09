@@ -1,0 +1,9 @@
+RANSEQ1.py is a program which can generate random sequences based on the frequency of every nucleotide in the input file and calculate the mean and standard deviation of every nucleotide based on the sequences we generated.
+
+There are four files in the folder which can be used for running the program. They are RANSEQ1.py, input_10.fasta, input_100.fasta, input_1000.fasta.
+
+Input: python RANSEQ1.py -i [input_file] -n [number_of_random_sequence] -o [output_file]
+
+Output: Output file includes random sequences and the mean and standard deviation of every nucleotide
+
+Sample usage: python RANSEQ1.py -i input_10.fasta -n 10 -o output_10.txt  
